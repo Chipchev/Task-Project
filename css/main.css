@@ -1,0 +1,86 @@
+body {
+  background-color: rgb(226, 220, 220);
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+button {
+  cursor: pointer;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+/* START of STYLES */
+body {
+  text-align: center;
+  margin: 10;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 16px;
+} /* Настраиваем внешний вид поля ввода*/
+input {
+  display: inline-block;
+  width: 640px;
+  margin: 20px auto;
+  border: 2px solid #eee;
+  padding: 10px 20px;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 16px;
+} /*Как будет выглядеть каждый элемент нашего списка*/
+.tdItem {
+  text-align: left;
+  padding: 10px;
+  cursor: default;
+  border-radius: 7px;
+} /*Что произойдёт, когда мы наведём курсор на любую задачу из списка*/
+.tdItem:hover {
+  background-color: lightblue;
+}
+.trello-button {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 30px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: rgb(21, 86, 224);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: 0;
+  padding: 15px 400px;
+}
+.trello-link {
+  text-decoration: none;
+  color: #fff;
+}
+h1 {
+  color: #212529;
+  padding: 10px 0 30px 0;
+}
+.todo__caption {
+  font-weight: bold;
+}
